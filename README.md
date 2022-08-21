@@ -1,3 +1,8 @@
+# You should really see 'globstar' original.
+
+I made slight modifications because I had a need to run each command seperately
+And I modify -n to not require node_modules to be at the root of the dir
+
 globstar [![Build Status](https://travis-ci.org/schnittstabil/globstar.svg?branch=master)](https://travis-ci.org/schnittstabil/globstar) [![Coverage Status](https://coveralls.io/repos/schnittstabil/globstar/badge.svg?branch=master)](https://coveralls.io/r/schnittstabil/globstar?branch=master)
 ========
 
@@ -62,6 +67,7 @@ Options:
   -i, --ignore   add glob pattern to exclude from matches
   -n, --node     same as `--ignore "node_modules/**"`
   -v, --verbose  explain what is being done
+  -e. --each     run the command per match
   --version      display version information
   --help         Show help
 
