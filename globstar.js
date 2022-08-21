@@ -62,7 +62,7 @@ function parseArgv(argv) {
 
   if (args.node) {
     args.ignore = args.ignore || [];
-    args.ignore.push('node_modules/**');
+    args.ignore.push('**/node_modules/**');
   }
 
   // setup result
