@@ -1,6 +1,10 @@
 {
   "env": {
-    "node": true
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
   },
   "rules": {
     "semi": 2,
@@ -10,9 +14,8 @@
     "func-names": 2,
     "space-before-blocks": 2,
     "brace-style": [2, "1tbs"],
-    "space-after-keywords": 2,
-    "space-before-function-parentheses": [2, "never"],
-    "space-after-function-name": [2, "never"],
+    "keyword-spacing": 2,
+    "space-before-function-paren": [2, "never"],
     "no-spaced-func": 2
   }
 }
